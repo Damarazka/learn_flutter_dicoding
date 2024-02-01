@@ -50,11 +50,16 @@ class DetailScreen extends StatelessWidget {
                     Column(
                       children: <Widget>[
                         Icon(Icons.access_time),
+                        SizedBox(height: 8.0,),
                         Text("09:00 - 20:00")
                       ],
                     ),
                     Column(
-                      children: <Widget>[Icon(Icons.monetization_on), Text("RP 25.000")],
+                      children: <Widget>[
+                        Icon(Icons.monetization_on),
+                        SizedBox(height: 8.0,),
+                        Text("RP 25.000")
+                      ],
                     )
                   ],
                 ),
@@ -63,8 +68,8 @@ class DetailScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 child: const Text(
                   'Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.',
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 16.0),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 16.0),
                 ),
               )
             ]),
